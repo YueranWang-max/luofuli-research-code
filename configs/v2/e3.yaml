@@ -1,0 +1,35 @@
+# E3 GRPO + fixed length penalty — v2 protocol: group 4, 200 steps, 256-token completions, real benchmarks
+model_name: models/Qwen3-4B-Instruct
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.0
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+quantization: none
+compute_dtype: bfloat16
+
+generation:
+  prompt_max_tokens: 768
+  completion_max_tokens: 384
+  num_generations: 4
+  temperature: 1.15
+  top_p: 0.95
+  epsilon_high: 0.28
+
+train:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  gradient_checkpointing: true
+  learning_rate: 1.0e-5
+  max_steps: 200
+  eval_steps: 50
+  save_steps: 100
+  seed: 42
+  use_vllm: false
+
+reward:
+  mode: length_penalty
+  length_penalty_coef: 0.0005
+  length_target_tokens: 256
+  lambda_gar: 0.2
+  lambda_0: 0.3

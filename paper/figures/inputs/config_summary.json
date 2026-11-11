@@ -1,0 +1,137 @@
+[
+  {
+    "branch": "v3",
+    "files": [
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_binary_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_binary_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_binary_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_centered_budget_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_centered_budget_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_centered_budget_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_centered_fixed_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_grs_only_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_grs_only_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen2.5-1.5B-Instruct_grs_only_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_binary_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_binary_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_binary_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_centered_budget_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_centered_budget_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_centered_budget_s42\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_grs_only_s123\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_grs_only_s2026\\effective_config.json",
+      "artifacts\\v3\\runs\\Qwen3-4B-Instruct_grs_only_s42\\effective_config.json"
+    ],
+    "settings": {
+      "per_device_train_batch_size": [
+        "1"
+      ],
+      "gradient_accumulation_steps": [
+        "8"
+      ],
+      "generation_batch_size": [
+        "8"
+      ],
+      "max_steps": [
+        "100"
+      ],
+      "learning_rate": [
+        "1e-05"
+      ],
+      "lr_scheduler_type": [
+        "linear"
+      ],
+      "warmup_steps": [
+        "0"
+      ],
+      "optim": [
+        "adamw_torch_fused"
+      ],
+      "adam_beta1": [
+        "0.9"
+      ],
+      "adam_beta2": [
+        "0.999"
+      ],
+      "adam_epsilon": [
+        "1e-08"
+      ],
+      "max_grad_norm": [
+        "1.0"
+      ],
+      "beta": [
+        "0.0"
+      ],
+      "epsilon": [
+        "0.2"
+      ],
+      "epsilon_high": [
+        "0.28"
+      ],
+      "num_iterations": [
+        "1"
+      ]
+    }
+  },
+  {
+    "branch": "minicpm5_external",
+    "files": [
+      "artifacts\\minicpm5_external\\runs\\binary_s123\\effective_config.json",
+      "artifacts\\minicpm5_external\\runs\\binary_s2026\\effective_config.json",
+      "artifacts\\minicpm5_external\\runs\\binary_s42\\effective_config.json",
+      "artifacts\\minicpm5_external\\runs\\centered_budget_s123\\effective_config.json",
+      "artifacts\\minicpm5_external\\runs\\centered_budget_s2026\\effective_config.json",
+      "artifacts\\minicpm5_external\\runs\\centered_budget_s42\\effective_config.json"
+    ],
+    "settings": {
+      "per_device_train_batch_size": [
+        "1"
+      ],
+      "gradient_accumulation_steps": [
+        "8"
+      ],
+      "generation_batch_size": [
+        "8"
+      ],
+      "max_steps": [
+        "100"
+      ],
+      "learning_rate": [
+        "1e-05"
+      ],
+      "lr_scheduler_type": [
+        "linear"
+      ],
+      "warmup_steps": [
+        "0"
+      ],
+      "optim": [
+        "adamw_torch_fused"
+      ],
+      "adam_beta1": [
+        "0.9"
+      ],
+      "adam_beta2": [
+        "0.999"
+      ],
+      "adam_epsilon": [
+        "1e-08"
+      ],
+      "max_grad_norm": [
+        "1.0"
+      ],
+      "beta": [
+        "0.0"
+      ],
+      "epsilon": [
+        "0.2"
+      ],
+      "epsilon_high": [
+        "0.28"
+      ],
+      "num_iterations": [
+        "1"
+      ]
+    }
+  }
+]

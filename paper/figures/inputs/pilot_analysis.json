@@ -1,0 +1,659 @@
+{
+  "scope": "Exploratory n=16 reused development questions; intervals are unadjusted and not confirmatory.",
+  "cells": [
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "prompt": "compact",
+      "cap": 256,
+      "n": 16,
+      "strict_correct": 1,
+      "legacy_correct": 1,
+      "truncated": 15
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "prompt": "compact",
+      "cap": 512,
+      "n": 16,
+      "strict_correct": 4,
+      "legacy_correct": 7,
+      "truncated": 6
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "prompt": "unconstrained",
+      "cap": 256,
+      "n": 16,
+      "strict_correct": 1,
+      "legacy_correct": 3,
+      "truncated": 14
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "prompt": "unconstrained",
+      "cap": 512,
+      "n": 16,
+      "strict_correct": 3,
+      "legacy_correct": 4,
+      "truncated": 10
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "prompt": "compact",
+      "cap": 256,
+      "n": 16,
+      "strict_correct": 8,
+      "legacy_correct": 8,
+      "truncated": 4
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "prompt": "compact",
+      "cap": 512,
+      "n": 16,
+      "strict_correct": 11,
+      "legacy_correct": 11,
+      "truncated": 1
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "prompt": "unconstrained",
+      "cap": 256,
+      "n": 16,
+      "strict_correct": 1,
+      "legacy_correct": 2,
+      "truncated": 15
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "prompt": "unconstrained",
+      "cap": 512,
+      "n": 16,
+      "strict_correct": 4,
+      "legacy_correct": 5,
+      "truncated": 12
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "budget_compact",
+      "score": "strict",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        0.0,
+        0.375
+      ],
+      "gains": 3,
+      "losses": 0
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "budget_compact",
+      "score": "passed_legacy_verifier",
+      "difference": 0.375,
+      "paired_item_percentile95": [
+        0.125,
+        0.625
+      ],
+      "gains": 6,
+      "losses": 0
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "budget_unconstrained",
+      "score": "strict",
+      "difference": 0.125,
+      "paired_item_percentile95": [
+        0.0,
+        0.3125
+      ],
+      "gains": 2,
+      "losses": 0
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "budget_unconstrained",
+      "score": "passed_legacy_verifier",
+      "difference": 0.0625,
+      "paired_item_percentile95": [
+        -0.125,
+        0.25
+      ],
+      "gains": 2,
+      "losses": 1
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "prompt_256",
+      "score": "strict",
+      "difference": 0.0,
+      "paired_item_percentile95": [
+        -0.1875,
+        0.1875
+      ],
+      "gains": 1,
+      "losses": 1
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "prompt_256",
+      "score": "passed_legacy_verifier",
+      "difference": -0.125,
+      "paired_item_percentile95": [
+        -0.3125,
+        0.0
+      ],
+      "gains": 0,
+      "losses": 2
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "prompt_512",
+      "score": "strict",
+      "difference": 0.0625,
+      "paired_item_percentile95": [
+        -0.25,
+        0.375
+      ],
+      "gains": 4,
+      "losses": 3
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "contrast": "prompt_512",
+      "score": "passed_legacy_verifier",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        -0.0625,
+        0.4375
+      ],
+      "gains": 4,
+      "losses": 1
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "budget_compact",
+      "score": "strict",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        0.0,
+        0.375
+      ],
+      "gains": 3,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "budget_compact",
+      "score": "passed_legacy_verifier",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        0.0,
+        0.375
+      ],
+      "gains": 3,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "budget_unconstrained",
+      "score": "strict",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        0.0,
+        0.375
+      ],
+      "gains": 3,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "budget_unconstrained",
+      "score": "passed_legacy_verifier",
+      "difference": 0.1875,
+      "paired_item_percentile95": [
+        0.0,
+        0.375
+      ],
+      "gains": 3,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "prompt_256",
+      "score": "strict",
+      "difference": 0.4375,
+      "paired_item_percentile95": [
+        0.1875,
+        0.6875
+      ],
+      "gains": 7,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "prompt_256",
+      "score": "passed_legacy_verifier",
+      "difference": 0.375,
+      "paired_item_percentile95": [
+        0.125,
+        0.625
+      ],
+      "gains": 6,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "prompt_512",
+      "score": "strict",
+      "difference": 0.4375,
+      "paired_item_percentile95": [
+        0.1875,
+        0.6875
+      ],
+      "gains": 7,
+      "losses": 0
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "contrast": "prompt_512",
+      "score": "passed_legacy_verifier",
+      "difference": 0.375,
+      "paired_item_percentile95": [
+        0.125,
+        0.625
+      ],
+      "gains": 6,
+      "losses": 0
+    }
+  ],
+  "prefix_checks": [
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_12",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_20",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_28",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_31",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_4",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_52",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_57",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_60",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_66",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_69",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_77",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_79",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_8",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_83",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_95",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_99",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_12",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_20",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_28",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_31",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_4",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_52",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_57",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_60",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_66",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_69",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_77",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_79",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_8",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_83",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_95",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen2.5-1.5B-Instruct",
+      "task": "mathtr_va_99",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_12",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_20",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_28",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_31",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_4",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_52",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_57",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_60",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_66",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_69",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_77",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_79",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_8",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_83",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_95",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_99",
+      "prompt": "compact",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_12",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_20",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_28",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_31",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_4",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_52",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_57",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_60",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_66",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_69",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_77",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_79",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_8",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_83",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_95",
+      "prompt": "unconstrained",
+      "match": true
+    },
+    {
+      "model": "Qwen3-4B-Instruct",
+      "task": "mathtr_va_99",
+      "prompt": "unconstrained",
+      "match": true
+    }
+  ],
+  "all_prefix_match": true,
+  "legacy_strict_disagreements": 8
+}

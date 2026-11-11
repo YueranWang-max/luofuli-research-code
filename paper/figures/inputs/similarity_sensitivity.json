@@ -1,0 +1,254 @@
+[
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "dataset": "math",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.010273972602739725,
+    "seed_differences": [
+      -0.010273972602739725,
+      -0.017123287671232876,
+      -0.003424657534246575
+    ],
+    "seed_sd": 0.00684931506849315,
+    "n_items": 292,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "L4": 144,
+      "L5": 148
+    },
+    "conditional_item_ci95": [
+      -0.030821917808219176,
+      0.010273972602739725
+    ],
+    "crossed_seed_item_ci95": [
+      -0.03995433789954338,
+      0.0182648401826484
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "dataset": "gsm",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.014590347923681257,
+    "seed_differences": [
+      0.010101010101010102,
+      -0.026936026936026935,
+      -0.026936026936026935
+    ],
+    "seed_sd": 0.021383343303319473,
+    "n_items": 297,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "gsm8k": 297
+    },
+    "conditional_item_ci95": [
+      -0.03254769921436588,
+      0.0022446689113355786
+    ],
+    "crossed_seed_item_ci95": [
+      -0.04489337822671156,
+      0.015712682379349047
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "dataset": "math",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": 0.023972602739726026,
+    "seed_differences": [
+      0.0273972602739726,
+      0.017123287671232876,
+      0.0273972602739726
+    ],
+    "seed_sd": 0.00593168084783862,
+    "n_items": 292,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "L4": 144,
+      "L5": 148
+    },
+    "conditional_item_ci95": [
+      0.003424657534246574,
+      0.045662100456621
+    ],
+    "crossed_seed_item_ci95": [
+      -0.003424657534246575,
+      0.05251141552511415
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "dataset": "gsm",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": 0.002244668911335578,
+    "seed_differences": [
+      0.003367003367003367,
+      -0.003367003367003367,
+      0.006734006734006734
+    ],
+    "seed_sd": 0.0051431825981547025,
+    "n_items": 297,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "gsm8k": 297
+    },
+    "conditional_item_ci95": [
+      -0.013468013468013467,
+      0.017957351290684622
+    ],
+    "crossed_seed_item_ci95": [
+      -0.020202020202020204,
+      0.02356902356902357
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "dataset": "math",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.001141552511415525,
+    "seed_differences": [
+      0.0,
+      0.030821917808219176,
+      -0.03424657534246575
+    ],
+    "seed_sd": 0.032549263537404685,
+    "n_items": 292,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "L4": 144,
+      "L5": 148
+    },
+    "conditional_item_ci95": [
+      -0.028538812785388123,
+      0.026255707762557076
+    ],
+    "crossed_seed_item_ci95": [
+      -0.04680365296803653,
+      0.0410958904109589
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "dataset": "gsm",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.003367003367003367,
+    "seed_differences": [
+      -0.006734006734006734,
+      0.0,
+      -0.003367003367003367
+    ],
+    "seed_sd": 0.003367003367003367,
+    "n_items": 297,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "gsm8k": 297
+    },
+    "conditional_item_ci95": [
+      -0.013468013468013467,
+      0.006734006734006734
+    ],
+    "crossed_seed_item_ci95": [
+      -0.016835016835016835,
+      0.007856341189674524
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "dataset": "math",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.0091324200913242,
+    "seed_differences": [
+      -0.0136986301369863,
+      0.0,
+      -0.0136986301369863
+    ],
+    "seed_sd": 0.007908907797118161,
+    "n_items": 292,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "L4": 144,
+      "L5": 148
+    },
+    "conditional_item_ci95": [
+      -0.02968036529680365,
+      0.01141552511415525
+    ],
+    "crossed_seed_item_ci95": [
+      -0.03767123287671233,
+      0.017123287671232876
+    ],
+    "bootstraps": 50000
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "dataset": "gsm",
+    "prompt_style": "compact",
+    "cap": 1024,
+    "metric": "strict_passed",
+    "subset": "without_high_text_similarity_ids",
+    "difference": -0.001122334455667789,
+    "seed_differences": [
+      -0.006734006734006734,
+      -0.003367003367003367,
+      0.006734006734006734
+    ],
+    "seed_sd": 0.007008976429178897,
+    "n_items": 297,
+    "n_seeds": 3,
+    "stratum_sizes": {
+      "gsm8k": 297
+    },
+    "conditional_item_ci95": [
+      -0.01122334455667789,
+      0.008978675645342313
+    ],
+    "crossed_seed_item_ci95": [
+      -0.014590347923681257,
+      0.013468013468013467
+    ],
+    "bootstraps": 50000
+  }
+]

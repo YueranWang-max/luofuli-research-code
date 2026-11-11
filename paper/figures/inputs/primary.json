@@ -1,0 +1,130 @@
+[
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "endpoint": "math/compact/1024/strict_passed",
+    "difference": -0.007777777777777777,
+    "seed_differences": [
+      -0.006666666666666667,
+      -0.016666666666666666,
+      0.0
+    ],
+    "seed_sd": 0.00838870492807861,
+    "conditional_item_ci95": [
+      -0.02777777777777778,
+      0.012222222222222223
+    ],
+    "crossed_seed_item_ci95": [
+      -0.03666666666666667,
+      0.021111111111111112
+    ],
+    "conditional_item_permutation_p": 0.5251773741131295,
+    "permutations": 200000,
+    "bootstraps": 50000,
+    "n_seeds": 3,
+    "n_items": 300,
+    "stratum_sizes": {
+      "L4": 150,
+      "L5": 150
+    },
+    "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+    "holm_p_four_primary_comparisons": 1.0
+  },
+  {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "endpoint": "math/compact/1024/strict_passed",
+    "difference": 0.02,
+    "seed_differences": [
+      0.02666666666666667,
+      0.013333333333333334,
+      0.02
+    ],
+    "seed_sd": 0.006666666666666667,
+    "conditional_item_ci95": [
+      -0.001111111111111111,
+      0.041111111111111105
+    ],
+    "crossed_seed_item_ci95": [
+      -0.006666666666666667,
+      0.04777777777777778
+    ],
+    "conditional_item_permutation_p": 0.08304958475207624,
+    "permutations": 200000,
+    "bootstraps": 50000,
+    "n_seeds": 3,
+    "n_items": 300,
+    "stratum_sizes": {
+      "L4": 150,
+      "L5": 150
+    },
+    "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+    "holm_p_four_primary_comparisons": 0.332198339008305
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "binary",
+    "endpoint": "math/compact/1024/strict_passed",
+    "difference": -0.002222222222222224,
+    "seed_differences": [
+      0.0,
+      0.02666666666666667,
+      -0.03333333333333333
+    ],
+    "seed_sd": 0.030061665018819295,
+    "conditional_item_ci95": [
+      -0.028888888888888888,
+      0.024444444444444446
+    ],
+    "crossed_seed_item_ci95": [
+      -0.044444444444444446,
+      0.03777777777777778
+    ],
+    "conditional_item_permutation_p": 0.9352103239483802,
+    "permutations": 200000,
+    "bootstraps": 50000,
+    "n_seeds": 3,
+    "n_items": 300,
+    "stratum_sizes": {
+      "L4": 150,
+      "L5": 150
+    },
+    "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+    "holm_p_four_primary_comparisons": 1.0
+  },
+  {
+    "model": "Qwen3-4B-Instruct",
+    "treatment": "centered_budget",
+    "comparator": "grs_only",
+    "endpoint": "math/compact/1024/strict_passed",
+    "difference": -0.01,
+    "seed_differences": [
+      -0.013333333333333334,
+      -0.0033333333333333335,
+      -0.013333333333333334
+    ],
+    "seed_sd": 0.005773502691896258,
+    "conditional_item_ci95": [
+      -0.03,
+      0.01
+    ],
+    "crossed_seed_item_ci95": [
+      -0.03666666666666667,
+      0.015555555555555555
+    ],
+    "conditional_item_permutation_p": 0.3877280613596932,
+    "permutations": 200000,
+    "bootstraps": 50000,
+    "n_seeds": 3,
+    "n_items": 300,
+    "stratum_sizes": {
+      "L4": 150,
+      "L5": 150
+    },
+    "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+    "holm_p_four_primary_comparisons": 1.0
+  }
+]

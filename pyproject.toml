@@ -1,0 +1,33 @@
+[project]
+name = "luofuli"
+version = "0.1.0"
+description = "Single-GPU reproduction and innovation on MiMo-V2-Flash: verifiable GRPO + budget-aware quality rewards"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.6",
+  "transformers>=4.50",
+  "datasets>=3.0",
+  "accelerate>=1.0",
+  "peft>=0.14",
+  "trl>=0.16",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pyyaml>=6.0",
+  "tqdm>=4.66",
+  "psutil>=5.9",
+  "pynvml>=11.5",
+]
+
+[project.optional-dependencies]
+quant = ["bitsandbytes>=0.45"]
+dev = ["pytest>=8.0", "ruff>=0.9", "radon>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

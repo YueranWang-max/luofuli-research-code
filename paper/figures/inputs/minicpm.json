@@ -1,0 +1,242 @@
+{
+  "results": [
+    {
+      "dataset": "math",
+      "difference": -0.012222222222222221,
+      "seed_differences": [
+        -0.01,
+        -0.043333333333333335,
+        0.016666666666666666
+      ],
+      "seed_sd": 0.030061665018819295,
+      "conditional_item_ci95": [
+        -0.03666666666666667,
+        0.01222222222222222
+      ],
+      "crossed_seed_item_ci95": [
+        -0.05333333333333334,
+        0.03
+      ],
+      "conditional_item_permutation_p": 0.3764081179594102,
+      "permutations": 200000,
+      "bootstraps": 50000,
+      "n_seeds": 3,
+      "n_items": 300,
+      "stratum_sizes": {
+        "L4": 150,
+        "L5": 150
+      },
+      "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+      "holm_p_two_datasets": 0.3764081179594102
+    },
+    {
+      "dataset": "gsm",
+      "difference": -0.11,
+      "seed_differences": [
+        -0.1,
+        -0.14666666666666667,
+        -0.08333333333333333
+      ],
+      "seed_sd": 0.032829526005987014,
+      "conditional_item_ci95": [
+        -0.1411111111111111,
+        -0.07888888888888888
+      ],
+      "crossed_seed_item_ci95": [
+        -0.16,
+        -0.06444444444444444
+      ],
+      "conditional_item_permutation_p": 4.9999750001249995e-06,
+      "permutations": 200000,
+      "bootstraps": 50000,
+      "n_seeds": 3,
+      "n_items": 300,
+      "stratum_sizes": {
+        "gsm8k": 300
+      },
+      "scope": "P-value conditional on trained seed pairs and item-level label exchangeability. Crossed bootstrap is approximate with few seeds; not an exact training-population test.",
+      "holm_p_two_datasets": 9.999950000249999e-06
+    }
+  ],
+  "cells": [
+    {
+      "dataset": "math",
+      "endpoint": "base",
+      "n": 300,
+      "correct": 129,
+      "accuracy": 0.43,
+      "total_tokens": 176432,
+      "tokens_per_correct": 1367.6899224806202,
+      "truncated": 114
+    },
+    {
+      "dataset": "math",
+      "endpoint": "binary_s42",
+      "n": 300,
+      "correct": 166,
+      "accuracy": 0.5533333333333333,
+      "total_tokens": 198027,
+      "tokens_per_correct": 1192.933734939759,
+      "truncated": 118
+    },
+    {
+      "dataset": "math",
+      "endpoint": "centered_budget_s42",
+      "n": 300,
+      "correct": 163,
+      "accuracy": 0.5433333333333333,
+      "total_tokens": 188620,
+      "tokens_per_correct": 1157.1779141104294,
+      "truncated": 111
+    },
+    {
+      "dataset": "math",
+      "endpoint": "binary_s123",
+      "n": 300,
+      "correct": 164,
+      "accuracy": 0.5466666666666666,
+      "total_tokens": 194877,
+      "tokens_per_correct": 1188.2743902439024,
+      "truncated": 114
+    },
+    {
+      "dataset": "math",
+      "endpoint": "centered_budget_s123",
+      "n": 300,
+      "correct": 151,
+      "accuracy": 0.5033333333333333,
+      "total_tokens": 185201,
+      "tokens_per_correct": 1226.4966887417218,
+      "truncated": 112
+    },
+    {
+      "dataset": "math",
+      "endpoint": "binary_s2026",
+      "n": 300,
+      "correct": 165,
+      "accuracy": 0.55,
+      "total_tokens": 196872,
+      "tokens_per_correct": 1193.1636363636364,
+      "truncated": 113
+    },
+    {
+      "dataset": "math",
+      "endpoint": "centered_budget_s2026",
+      "n": 300,
+      "correct": 170,
+      "accuracy": 0.5666666666666667,
+      "total_tokens": 189963,
+      "tokens_per_correct": 1117.429411764706,
+      "truncated": 107
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "base",
+      "n": 300,
+      "correct": 151,
+      "accuracy": 0.5033333333333333,
+      "total_tokens": 26716,
+      "tokens_per_correct": 176.9271523178808,
+      "truncated": 3
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "binary_s42",
+      "n": 300,
+      "correct": 196,
+      "accuracy": 0.6533333333333333,
+      "total_tokens": 54642,
+      "tokens_per_correct": 278.7857142857143,
+      "truncated": 11
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "centered_budget_s42",
+      "n": 300,
+      "correct": 166,
+      "accuracy": 0.5533333333333333,
+      "total_tokens": 40357,
+      "tokens_per_correct": 243.1144578313253,
+      "truncated": 10
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "binary_s123",
+      "n": 300,
+      "correct": 209,
+      "accuracy": 0.6966666666666667,
+      "total_tokens": 53030,
+      "tokens_per_correct": 253.73205741626793,
+      "truncated": 9
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "centered_budget_s123",
+      "n": 300,
+      "correct": 165,
+      "accuracy": 0.55,
+      "total_tokens": 28015,
+      "tokens_per_correct": 169.78787878787878,
+      "truncated": 2
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "binary_s2026",
+      "n": 300,
+      "correct": 194,
+      "accuracy": 0.6466666666666666,
+      "total_tokens": 47710,
+      "tokens_per_correct": 245.9278350515464,
+      "truncated": 9
+    },
+    {
+      "dataset": "gsm",
+      "endpoint": "centered_budget_s2026",
+      "n": 300,
+      "correct": 169,
+      "accuracy": 0.5633333333333334,
+      "total_tokens": 41937,
+      "tokens_per_correct": 248.14792899408283,
+      "truncated": 8
+    }
+  ],
+  "inputs": {
+    "base": {
+      "rows.jsonl": "2c3809ce33961074e99f287441de50eee667a1449ea304d3d8002330551ac06e",
+      "manifest.json": "8f76b4f653e6ad4e9c3591bf4b22adceaff711635983d7adf207c21e6c1427f6",
+      "completed.json": "ce297a9f87b486e38d6e08d80976354ce1231eaa6097ee124ab6ecccce09f769"
+    },
+    "binary_s42": {
+      "rows.jsonl": "aba9b47ee12a30b09b1a72d386daafc3f3e7a82f667c5c78c0bb9d53594629c6",
+      "manifest.json": "e93c24b9d9f6fcde5ff9e680618405ca74a2bd49bd42ea3cc45fb4b592232ce2",
+      "completed.json": "f8b85fed9497e1b2192c75ea7331b2059f884d13a2010104355aa842082b81ee"
+    },
+    "centered_budget_s42": {
+      "rows.jsonl": "bd43358cf80b084171404bf1d09a02f4a4b85e99db7ce006f77520134dec489c",
+      "manifest.json": "4fd3dab9b486ed0771105f601ca5f90e77c5ca906cd279ade7db632715887143",
+      "completed.json": "d12de34e8ae2aa6e468142a7953be07b15a17729f92299dfca39a4ccc20d5647"
+    },
+    "binary_s123": {
+      "rows.jsonl": "73ec9ed33d544f5017fd1020d94fe745644ba3e9c2a77360fcf1bdb673dc2068",
+      "manifest.json": "08bcfe12638f3b595bfe3228ca511b2a1c2864b181a69b75deb4258c3a379062",
+      "completed.json": "f267833cfecfe9afce620684c0a8cff504ce53650deb0b066c084636eeb6a0cb"
+    },
+    "centered_budget_s123": {
+      "rows.jsonl": "e41dc5518077825fa161a72dddc85eaa6b054d4ecab76642a3a857d531733131",
+      "manifest.json": "f817ccf33459eaf65d77878c3a58f4aed4ad1fcd1751288fda7f74203441cd11",
+      "completed.json": "10e90b5f14cc005f144dc83177d4b1993778a7d7db5a808d0b6c5c15d865a41e"
+    },
+    "binary_s2026": {
+      "rows.jsonl": "eabe9529387fdeb1e3fe671ffc3e019c2b177103cb6c4fbaadbddf7ddf4455e1",
+      "manifest.json": "bced99652afcd8e5f7131d776cf97ca177b3338708bf4b8197992ace8507e309",
+      "completed.json": "7be02c5838550245e455df08d48d53ee0a82fee6e070dbe5d84cebb4192e26e4"
+    },
+    "centered_budget_s2026": {
+      "rows.jsonl": "f63ed3e33af024999ecceea05fa2f2c62eaa21bcd9c5c1cfda5057d97f955535",
+      "manifest.json": "e6c8fae909ee6894b3f92a8b0e2aa9db2a82da28100084b8263a9f87e08fb970",
+      "completed.json": "2bf0626058cb83684ddb5a0f4ef7952f1ea579f13c4eb3eaf5f43bb6d1bc5676"
+    }
+  },
+  "analysis_sha256": "6e29bbb3c11760295cb6bb07ad7116d1e5a32a0851d6815e71db8dc1d88bf143",
+  "stats_sha256": "be2212c1a76107d7047df34ec1e114b77e8ef8bb145edc56613563fadf48e8e4"
+}

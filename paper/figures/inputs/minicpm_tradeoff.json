@@ -1,0 +1,58 @@
+[
+  {
+    "family": "minicpm",
+    "run": "base",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 151,
+    "tokens": 26716
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 209,
+    "tokens": 53030
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 194,
+    "tokens": 47710
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 196,
+    "tokens": 54642
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 165,
+    "tokens": 28015
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 169,
+    "tokens": 41937
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 166,
+    "tokens": 40357
+  }
+]

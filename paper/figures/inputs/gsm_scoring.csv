@@ -1,0 +1,10 @@
+arm,seed,n,strict,tolerant
+Binary,42,300,108,197
+Binary,123,300,117,200
+Binary,2026,300,118,203
+Quality only,42,300,111,199
+Quality only,123,300,110,195
+Quality only,2026,300,108,194
+Centered,42,300,112,196
+Centered,123,300,110,193
+Centered,2026,300,109,194

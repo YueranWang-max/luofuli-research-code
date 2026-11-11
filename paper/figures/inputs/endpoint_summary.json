@@ -1,0 +1,434 @@
+[
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_base",
+    "dataset": "math",
+    "n": 300,
+    "correct": 100,
+    "tokens": 135194
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_base",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 103,
+    "tokens": 41341
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 108,
+    "tokens": 134522
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 117,
+    "tokens": 41716
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 107,
+    "tokens": 136545
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 118,
+    "tokens": 40459
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 109,
+    "tokens": 132748
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_binary_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 108,
+    "tokens": 41707
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 103,
+    "tokens": 131713
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 110,
+    "tokens": 39855
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 107,
+    "tokens": 134878
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 109,
+    "tokens": 41281
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 107,
+    "tokens": 135862
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_centered_budget_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 112,
+    "tokens": 40999
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 99,
+    "tokens": 133351
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 110,
+    "tokens": 40353
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 101,
+    "tokens": 134205
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 108,
+    "tokens": 41155
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 99,
+    "tokens": 132904
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen2.5-1.5B-Instruct_grs_only_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 111,
+    "tokens": 41305
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_base",
+    "dataset": "math",
+    "n": 300,
+    "correct": 200,
+    "tokens": 93848
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_base",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 274,
+    "tokens": 27446
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 196,
+    "tokens": 96508
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 272,
+    "tokens": 27270
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 199,
+    "tokens": 90375
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 272,
+    "tokens": 27326
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 198,
+    "tokens": 92909
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_binary_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 273,
+    "tokens": 27611
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 204,
+    "tokens": 89443
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 272,
+    "tokens": 27241
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 189,
+    "tokens": 83082
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 271,
+    "tokens": 26166
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 198,
+    "tokens": 83466
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_centered_budget_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 271,
+    "tokens": 26578
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 205,
+    "tokens": 91405
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 273,
+    "tokens": 27258
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 193,
+    "tokens": 85405
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 269,
+    "tokens": 26654
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 202,
+    "tokens": 93324
+  },
+  {
+    "family": "qwen",
+    "run": "Qwen3-4B-Instruct_grs_only_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 273,
+    "tokens": 27101
+  },
+  {
+    "family": "minicpm",
+    "run": "base",
+    "dataset": "math",
+    "n": 300,
+    "correct": 129,
+    "tokens": 176432
+  },
+  {
+    "family": "minicpm",
+    "run": "base",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 151,
+    "tokens": 26716
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 164,
+    "tokens": 194877
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 209,
+    "tokens": 53030
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 165,
+    "tokens": 196872
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 194,
+    "tokens": 47710
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 166,
+    "tokens": 198027
+  },
+  {
+    "family": "minicpm",
+    "run": "binary_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 196,
+    "tokens": 54642
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s123",
+    "dataset": "math",
+    "n": 300,
+    "correct": 151,
+    "tokens": 185201
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s123",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 165,
+    "tokens": 28015
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s2026",
+    "dataset": "math",
+    "n": 300,
+    "correct": 170,
+    "tokens": 189963
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s2026",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 169,
+    "tokens": 41937
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s42",
+    "dataset": "math",
+    "n": 300,
+    "correct": 163,
+    "tokens": 188620
+  },
+  {
+    "family": "minicpm",
+    "run": "centered_budget_s42",
+    "dataset": "gsm",
+    "n": 300,
+    "correct": 166,
+    "tokens": 40357
+  }
+]
